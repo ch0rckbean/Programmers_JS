@@ -19,7 +19,7 @@ function solution(num) {
     // if (answer == 500) return -1;
   }
   console.log(answer);
-  return answer;
+  return num == 1 ? answer : (answer = -1);
 }
 solution(6);
 solution(16);
