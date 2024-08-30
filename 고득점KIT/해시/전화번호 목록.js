@@ -9,7 +9,6 @@ function solution(phone_book) {
 
   for (let number of phone_book) {
     for (let i = 1; i < number.length; i++) {
-      console.log(number);
       // 한 글자씩 잘라야 하므로
       let prefix = number.substring(0, i); // 글자수 하나씩 자르기
       if (pb[prefix]) {
